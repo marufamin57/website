@@ -1,11 +1,38 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>start</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
+    </style>
 </head>
+
 <body>
     <h1>
         h1
@@ -50,9 +77,23 @@
     <p title="bangla font">
         আর কত ?
     </p>
-    <a href="/chap/headings.html"><button>headings</button></a>
-    <a href="/chap/pargaraphs.html"><button>pargaraphs</button></a>
-    <a href="/chap/styles.html"><button>styles</button></a>
-    <a href="/chap/css.html"><button>css</button></a>
-    <a href="/chap/link.html"><button>link</button></a>
+    <p><img src="/img/nature_35.jpg" alt="Smiley face" style="float:right;width:420px;height:420px;">
+        The image will float to the right of the text.</p>
+    <img src="/img/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+    <ul>
+        <li><a href="/chap/css.html">css</a></li>
+        <li><a href="/chap/headings.html">headings</a></li>
+        <li><a href="/chap/link.html">link</a></li>
+        <li><a href="/chap/pargaraphs.html">paragraph</a></li>
+        <li><a href="/chap/styles.html">style</a></li>
+        <li><a href="/chap/tables.html">table</a></li>
+    </ul>
+</body>
+
 </html>

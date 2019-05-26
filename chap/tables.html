@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>table</title>
+    <style>
+            thead {color:green;}
+            tbody {color:blue;}
+            tfoot {color:red;}
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        <!-- border-collapse: collapse; -->
+      }
+      th, td {
+        padding: 15px;
+      }
+      th {
+        text-align: left;
+      }
+      table {
+        border-spacing: 5px;
+      }
+      table#t01 tr:nth-child(even) {
+        background-color: rgb(119, 12, 12);
+      }
+      table#t01 tr:nth-child(odd) {
+       background-color: rgb(18, 189, 61);
+      }
+      table#t01 th {
+        background-color: black;
+        color: white;}
+    li{
+        float: left
+    }
+    </style>
+  </head>
+  <body>
+    <a href="../index.html" title="home"><button id="but">home</button></a>
+    <table style="width: 100%">
+      <caption>
+        table
+      </caption>
+      <tr>
+        <th>a</th>
+        <th>b</th>
+        <th>c</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <h2>Cell that spans two columns</h2>
+    <p>To make a cell span more than one column, use the colspan attribute.</p>
+
+    <table style="width:100%">
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Telephone</th>
+      </tr>
+      <tr>
+        <td>Bill Gates</td>
+        <td>55577854</td>
+        <td>55577855</td>
+      </tr>
+    </table>
+
+    <table style="width:100%">
+      <tr>
+        <th>Name:</th>
+        <td>Bill Gates</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Telephone:</th>
+        <td>55577854</td>
+      </tr>
+      <tr>
+        <td>55577855</td>
+      </tr>
+    </table>
+
+    <h2>Styling Tables</h2>
+
+    <table style="width:100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table style=" background-color: #f1f1c1;">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+
+    <table id="t01">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul>
+      <li>Coffee</li>
+      <li>
+        Tea
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+    <ol start="50">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+    <h2>A Description List</h2>
+
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+    <ul>
+    <li>hj</li>
+    <li>             io</li>
+    </ul>
+  </body>
+</html>
